@@ -1,0 +1,11 @@
+framework module FannexSDKLite {
+  umbrella header "FannexSDKLite.h"
+
+  export *
+  module * { export * }
+}
+
+module FannexSDKLite.Swift {
+    header "FannexSDKLite-Swift.h"
+    requires objc
+}
