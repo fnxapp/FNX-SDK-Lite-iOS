@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
   s.ios.deployment_target = "10.0"
   s.swift_version = "4.0"
-  s.source       = { :git => "https://github.com/fnxapp/SDK-Lite-iOS.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/fnxapp/FNX-SDK-Lite-iOS.git", :tag => "#{s.version}" }
   s.vendored_frameworks = 'FannexSDKLite/FannexSDKLite.framework'
 end
