@@ -24,7 +24,7 @@ pod "FannexSDKLite”
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		FannexSDKLite.initializeManager()
 		// Uncoment line in you need to change check in url. (Optional)
-        // FannexSDKLite.shared().checkinURL = URL(string: "http://interactivepd.fnxapp.com/spa/#/mm")
+        // FannexSDKLite.shared().checkinURL = URL(string: "CONTACT FANNEX FOR URL")
 
 		return true
 	}
