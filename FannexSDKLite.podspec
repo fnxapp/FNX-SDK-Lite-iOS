@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FannexSDKLite"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "Fannex Mobile Entertainment System – Basic Services Integration (Lite)"
   s.description  = <<-DESC
   For integration of basic user event check-in and access to Fannex real time interactive production controlled games and experiences playable within a host application framework.
