@@ -167,6 +167,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import ObjectiveC;
 @import Foundation;
+@import WebKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -234,6 +235,12 @@ SWIFT_CLASS("_TtC13FannexSDKLite13FannexSDKLite")
 + (FannexSDKLite * _Null_unspecified)shared SWIFT_WARN_UNUSED_RESULT;
 /// Url for checkin.
 @property (nonatomic, copy) NSURL * _Null_unspecified checkinURL;
+@end
+
+@class WKHTTPCookieStore;
+
+@interface FannexSDKLite (SWIFT_EXTENSION(FannexSDKLite)) <WKHTTPCookieStoreObserver>
+- (void)cookiesDidChangeInCookieStore:(WKHTTPCookieStore * _Nonnull)cookieStore SWIFT_AVAILABILITY(ios,introduced=11.0);
 @end
 
 
